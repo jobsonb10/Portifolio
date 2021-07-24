@@ -2,10 +2,13 @@ let inputNome = document.querySelector('#nome') /* Cria a variável inputNome e 
 let inputEmail = document.querySelector('#email') /* Cria a variável inputEmail e coloca nela o elemento que possui o id email */
 let textareaMensagem = document.querySelector('#mensagem') /* Cria a variável textareaMensagem e coloca nela o elemento que possui o id mensagem */
 let btnEnviar = document.querySelector('#enviar') /* Cria a variável btnEnviar e coloca nela o elemento que possui o id enviar */
+let btn1 = document.querySelector('#thanos')
+let btn2 = document.querySelector('#projetos')
 let nomeOk = false /* variável de controle para o botão */
 let emailOk = false /* variável de controle para o botão */
 let msgOk = false /* variável de controle para o botão */
 btnEnviar.disabled = true /* Desabilita o botão assim que inicia a página html */
+
  
 /* Só posso utilziar a arrow function (=>) quando a função não tiver nome */
 
@@ -90,3 +93,17 @@ btnEnviar.addEventListener('click', () => {
    /* Esconde o Form, mudando o display pra 'none' */
    form.style.display = 'none'
 })
+
+// btn1.addEventListener("click", () => {
+
+//    window.open('https://jobsonb10.github.io/Mudanca-de-humor-do-Thanos/', '_blank')
+
+// })
+
+
+// btn2.addEventListener("click", () => {
+
+//    window.open('https:www.google.com', '_blank')
+
+// })
+
