@@ -259,7 +259,7 @@ section#sobre div#estrela{
 
 
 section#sobre div#linha{
-  background-color: fff;
+  background-color: #fff;
   margin-right: 1rem;
   width: 100%;
   max-width: 7rem;
@@ -373,8 +373,9 @@ section#contato form button:hover {
 
 section#contato h3 {
   text-align: center;
-  padding: 2rem;
-  font-size: 2rem;
+  padding: 3rem;
+  font-size: 2.5rem;
+  color: #2c3e50;
 }
 
 
